@@ -1,0 +1,25 @@
+{
+  "name": "games_free_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@atproto/api": "^0.12.5",
+    "axios": "^1.6.8",
+    "jsdom": "^24.0.0",
+    "sharp": "^0.33.3",
+    "svg2img": "^1.0.0-beta.2",
+    "tsx": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "description": ""
+}
