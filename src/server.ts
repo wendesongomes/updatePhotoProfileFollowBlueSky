@@ -2,10 +2,11 @@ import { BskyAgent } from "@atproto/api";
 import { readFileSync } from "fs";
 import sharp from "sharp";
 import axios from "axios";
+import { env } from "./lib/env";
 
 async function VerifyAndChangeImage() {
-  const username = process.env.username;
-  const password = process.env.password;
+  const username = env.username;
+  const password = env.password;
   const agent = new BskyAgent({
     service: "https://bsky.social",
   });
