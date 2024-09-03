@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "tsx src/server.ts",
     "dev": "tsx --env-file=.env src/server.ts"
   },
   "keywords": [],
